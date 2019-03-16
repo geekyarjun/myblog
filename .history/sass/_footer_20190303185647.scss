@@ -1,0 +1,23 @@
+.footer {
+    background-color: rgba(0,0,0, .3);
+
+    grid-column: full-start / full-end;
+
+    &__wrapper {
+
+        /* ::after {
+            content: '';
+            width: 100%;
+            border-top: 1px solid black;
+            position: absolute;
+        } */
+    }
+
+    &__connect-text {
+        font-size: 3rem;
+    }
+
+    &__social-icon {
+        font-size: 3rem;
+    }
+}

@@ -1,0 +1,8 @@
+.post_container {
+    // background-color: gainsboro;
+    
+    grid-column: center-start / center-end;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem ,1fr))
+}

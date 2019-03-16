@@ -1,0 +1,34 @@
+.slider {
+    background-color: lightcoral;
+
+    grid-column: 1 / -1;
+    position: relative;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    button {
+        font-size: 5rem;
+        position: absolute;
+        color: white;
+        background: none;
+        border: none;
+        line-height: 0;
+        cursor: pointer;
+    }
+
+    &--previous {
+        top: 50%;
+        left: 0;
+        padding: 1rem;
+    }
+
+    &--next {
+        top: 50%;
+        right: 0;
+        padding: 1rem;
+    }
+}

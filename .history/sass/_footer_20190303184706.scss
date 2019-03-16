@@ -1,0 +1,14 @@
+.footer {
+    background-color: rgba(0,0,0, .3);
+
+    grid-column: full-start / full-end;
+
+    &__wrapper {
+
+        ::after {
+            content: '';
+            border-top: 1px solid black;
+            position: absolute;
+        }
+    }
+}

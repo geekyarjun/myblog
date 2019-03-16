@@ -1,0 +1,12 @@
+.aside-latest-blog-post {
+    margin-top: 5rem;
+
+    grid-column: col-start 8 / full-end;
+
+    article {
+        img {
+            width: 20px;
+            height: 20px;
+        }
+    }
+}
