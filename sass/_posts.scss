@@ -1,0 +1,31 @@
+.post {
+  display: grid;
+  padding: 0 1rem 5rem 1rem;
+
+  &--image {
+    width: 100%;
+  }
+
+  &--category {
+    color: $color-primary;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 1rem 0;
+  }
+
+  &--heading {
+    font-size: 2rem;
+    color: $color-secondary;
+  }
+
+  &--post-date {
+    color: $color-grey-light-2;
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+    text-align: justify;
+    padding-top: 1rem;
+  }
+}

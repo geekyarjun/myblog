@@ -1,7 +1,9 @@
-@import "base.scss";
-@import "header.scss";
-@import "slider.scss";
-@import "postcontainer.scss";
-@import "aside.scss";
-@import "footer.scss";
-@import "loadMore.scss";
+@import "base";
+@import "typography";
+
+@import "header";
+@import "navigationBar";
+@import "categoryWisePosts";
+@import "posts";
+@import "latestPosts";
+@import "footer";

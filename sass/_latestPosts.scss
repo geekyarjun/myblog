@@ -1,0 +1,11 @@
+.latest-posts {
+  grid-column: col-start 9 / col-end 10;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+
+  @media only screen and (max-width: $bp-large) {
+    grid-column: col-start 1 / col-end 10;
+    grid-row: 3;
+  }
+}

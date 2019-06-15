@@ -1,25 +1,16 @@
 .header {
-    // background-color: blueviolet;
-    padding: 2rem;
+  grid-column: full-start / full-end;
+  background-color: $color-white;
 
-    grid-column: full-start / full-end;
-    
-    display: grid;
-    grid-template-columns: max-content max-content;
-    justify-content: space-between;
-    align-items: center;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between; // move grid track along inline-axis(Horizontal)
+  align-items: center; // move grid items along block-axis(vertical)
 
-    // & > * {
-    //     padding: 0 2rem;
-    // }
+  padding: 0.2rem 2rem;
 
-    &__logo {
-        // width: 6rem;
-        height: 4rem;
-    }
-    
-    &__search-logo {
-        width: 4rem;
-        height: 4rem;
-    }
+  &__serach-icon {
+    width: 2rem;
+    cursor: pointer;
+  }
 }
