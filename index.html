@@ -39,12 +39,18 @@
         srcset=""
         class="header__serach-icon"
       />
+      <img
+        src="/images/geekyArjun-menu-icon.svg"
+        alt="menu icon"
+        srcset=""
+        class="header__menu-icon"
+      />
     </header>
 
     <nav class="navigation u-sm-mg-bt">
       <ul class="navigation__list">
-        <li class="navigation__list--item">
-          <a href="#" class="active">Item 1</a>
+        <li class="navigation__list--item active">
+          <a href="#">Item 1</a>
         </li>
         <li class="navigation__list--item"><a href="#">Item 2</a></li>
         <li class="navigation__list--item"><a href="#">Item 3</a></li>
@@ -244,9 +250,25 @@
     </div>
 
     <footer class="footer">
+      <div class="footer__social-media-links">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-google"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-instagram"></a>
+      </div>
       <div class="footer__copyrght-information">
         Copyright &copy; geekyArjun
       </div>
     </footer>
+    <script>
+      const menuIcon = document.querySelector(".header__menu-icon");
+      const modalDrawer = document.querySelector(".navigation");
+
+      menuIcon.addEventListener("click", event => {
+        modalDrawer.classList.toggle("show-menu");
+      });
+    </script>
   </body>
 </html>

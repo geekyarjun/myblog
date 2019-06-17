@@ -6,11 +6,26 @@
   grid-auto-flow: column;
   justify-content: space-between; // move grid track along inline-axis(Horizontal)
   align-items: center; // move grid items along block-axis(vertical)
+  grid-template-columns: 1fr repeat(2, min-content);
 
   padding: 0.2rem 2rem;
 
   &__serach-icon {
     width: 2rem;
+    height: 2rem;
+    margin: 0 1rem;
     cursor: pointer;
+  }
+
+  &__menu-icon {
+    width: 3rem;
+    height: 3rem;
+    margin: 0 1rem;
+    cursor: pointer;
+    display: none;
+
+    @media only screen and (max-width: $bp-small) {
+      display: block;
+    }
   }
 }

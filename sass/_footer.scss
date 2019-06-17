@@ -3,9 +3,10 @@
   background-color: $color-secondary;
 
   display: grid;
-  grid-auto-flow: column;
-  grid-template-columns: repeat(12, 1fr); // to center the copright text
+  // grid-auto-flow: column;
+  grid-template-columns: minmax(1rem, 1fr) repeat(10, 1fr) minmax(1rem, 1fr); // to center the copright text
   align-items: center;
+  grid-row-gap: 1rem;
 
   color: $color-white;
   font-size: 2rem;
@@ -13,11 +14,25 @@
 
   &__social-media-links {
     grid-column: 1 / 5;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(4rem, min-content));
+    // justify-content: center;
+    grid-gap: 1rem;
+
+    @media only screen and (max-width: $bp-large) {
+      grid-column: 2 / 12;
+      justify-content: center;
+    }
   }
 
   &__copyrght-information {
-    grid-column: 3 / 11;
+    grid-column: 5 / 9;
     justify-self: center;
+
+    @media only screen and (max-width: $bp-large) {
+      grid-column: 2 / 12;
+    }
   }
 
   .fa {
