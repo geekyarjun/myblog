@@ -1,0 +1,10 @@
+.related-posts {
+  grid-column: 3 / 11;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+
+  @media only screen and (max-width: $bp-xs) {
+    grid-column: 2 / -2;
+  }
+}
