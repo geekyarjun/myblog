@@ -191,6 +191,13 @@ body {
       grid-column: col-start 1 / col-end 10;
       padding-right: 0; } }
 
+.category-page__posts-container {
+  grid-column: col-start 1 / col-end 10;
+  padding-right: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  align-content: start; }
+
 .post {
   display: grid;
   padding: 0 1rem 5rem 1rem; }
