@@ -1,0 +1,39 @@
+.post {
+    display: grid;
+    grid-template-rows: auto auto 20rem;
+
+    padding: 0 1rem 5rem 1rem;
+    overflow: hidden;
+    margin-bottom: 3rem;
+
+    a {
+        text-decoration: none;
+    }
+
+    &__image {
+        width: 100%;
+    }
+
+    &__category {
+        color: $color-primary;
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin: 1rem 0;
+    }
+
+    &__heading {
+        font-size: 2rem;
+        color: $color-secondary;
+    }
+
+    &__post-date {
+        color: $color-grey-light-2;
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+        text-align: justify;
+        padding-top: 1rem;
+    }
+}

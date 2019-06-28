@@ -1,0 +1,28 @@
+.category-wise-posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    align-content: start;
+
+    &-col-8 {
+        grid-column: col-start 1 / col-end 8;
+        padding-right: 3rem;
+    }
+
+    &-col-10 {
+        grid-column: col-start 1 / col-end 10;
+    }
+
+    @media only screen and (max-width: $bp-large) {
+        grid-column: col-start 1 / col-end 10;
+        padding-right: 0;
+    }
+}
+
+.category-page__posts-container {
+    grid-column: col-start 1 / col-end 10;
+    padding-right: 0;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    align-content: start;
+}
