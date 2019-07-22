@@ -1,4 +1,5 @@
 import React from 'react';
+import { socialMediaAccounts } from '../../config';
 
 // to be done use link component instead of anchor tag, 
 // or we can make a link component
@@ -17,11 +18,11 @@ const Author = () => (
             </p>
             <div className="author__about--social-media-accounts">
                 {/* eslint-disable */}
-                <a href="https://www.facebook.com/geekyarjunshrivastava/" target="__blank" className="fa fa-facebook"></a>
-                <a href="https://twitter.com/geekyarjun_" target="__blank" className="fa fa-twitter"></a>
-                <a href="https://www.linkedin.com/in/geekyarjunshrivastava/" target="__blank" className="fa fa-linkedin"></a>
-                <a href="https://www.youtube.com/channel/UCXfiDKQEugNlpQlgWs1Xj7g" target="__blank" className="fa fa-youtube"></a>
-                <a href="https://www.instagram.com/itsgeekyarjun" target="__blank" className="fa fa-instagram"></a>
+                <a href={`${socialMediaAccounts.FB}`} target="__blank" className="fa fa-facebook"></a>
+                <a href={`${socialMediaAccounts.Twitter}`} target="__blank" className="fa fa-twitter"></a>
+                <a href={`${socialMediaAccounts.LinkedIn}`} target="__blank" className="fa fa-linkedin"></a>
+                <a href={`${socialMediaAccounts.YT}`} target="__blank" className="fa fa-youtube"></a>
+                <a href={`${socialMediaAccounts.Instagram}`} target="__blank" className="fa fa-instagram"></a>
             </div>
         </div>
     </div>

@@ -9,6 +9,7 @@ const PostContainer = ({ params, TestData }) => {
         return data.map((pData, index) => {
             const category = <h1 className="postCategoryTitle" key={pData.category + index}>{pData.posts[0].category}</h1>
             const postsArray = pData.posts.map((post, idx) => {
+                console.log('post', post)
                 return (<Article {...post} key={idx} />);
             })
 
@@ -20,6 +21,7 @@ const PostContainer = ({ params, TestData }) => {
 
     if (params.category) {
         const postData = TestData.find(data => data.category === params.category);
+        console.log('postData', postData)
         const data = [{ ...postData }];
 
         const posts = setPostData(data);

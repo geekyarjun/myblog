@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Article = ({ category, date, postContent, title }) => {
+const Article = ({ id, category, date, postContent, title }) => {
+    console.log('category, date, postContent, title', category, date, postContent, title)
     return (
         <article className="post">
-            <Link to="/blog/post/1">
+            <Link to={`/blog/post/${id}`}>
                 <img
                     src="/posts.jpeg"
                     alt="geekyarjun.com-test post"

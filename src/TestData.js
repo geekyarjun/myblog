@@ -3,6 +3,7 @@ export default [
         category: "nodejs",
         posts: [
             {
+                id: '1',
                 title: 'Test title - A',
                 date: 'MAY 9, 2019',
                 postContent: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -21,6 +22,7 @@ export default [
                 category: "Nodejs",
             },
             {
+                id: '2',
                 title: 'Test title - B',
                 date: 'JUN 9, 2019',
                 postContent: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -40,6 +42,7 @@ export default [
 
             },
             {
+                id: '3',
                 title: 'Test title - C',
                 date: 'JAN 9, 2019',
                 postContent: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -58,6 +61,7 @@ export default [
                 category: "Nodejs",
             },
             {
+                id: '4',
                 title: 'Test title - D',
                 date: 'FEB 9, 2019',
                 postContent: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -76,6 +80,7 @@ export default [
                 category: "Nodejs",
             },
             {
+                id: '5',
                 title: 'Test title - E',
                 date: 'FEB 9, 2018',
                 postContent: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -99,6 +104,7 @@ export default [
         category: "mongodb",
         posts: [
             {
+                id: '6',
                 title: 'Test title - A',
                 date: 'MAY 9, 2019',
                 postContent: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -117,6 +123,7 @@ export default [
                 category: 'MongoDB'
             },
             {
+                id: '7',
                 title: 'Test title - B',
                 date: 'JUN 9, 2019',
                 postContent: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -135,6 +142,7 @@ export default [
                 category: 'MongoDB'
             },
             {
+                id: '8',
                 title: 'Test title - C',
                 date: 'JAN 9, 2019',
                 postContent: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -153,6 +161,7 @@ export default [
                 category: 'MongoDB'
             },
             {
+                id: '9',
                 title: 'Test title - D',
                 date: 'FEB 9, 2019',
                 postContent: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -171,6 +180,7 @@ export default [
                 category: 'MongoDB'
             },
             {
+                id: '10',
                 title: 'Test title - E',
                 date: 'FEB 9, 2018',
                 postContent: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
