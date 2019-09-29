@@ -3,6 +3,8 @@ import { Route, Switch } from 'react-router-dom';
 
 const DefaultLayout = lazy(() => import('./DefaultLayout'))
 
+// comment was added in App.js
+
 function App() {
 	return (
 		<Switch>
